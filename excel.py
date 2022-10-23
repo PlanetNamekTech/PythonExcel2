@@ -11,6 +11,7 @@ wb.save('C2-W3-Practice-Challenge.xlsx')
 #To create a new sheet
 wb.create_sheet('PythonSheet')
 wb.save('C2-W3-Practice-Challenge.xlsx')
+#show names of all sheets in the workbook
 print(wb.sheetnames)
 
 
